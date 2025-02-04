@@ -9,7 +9,7 @@ const Connect = () => {
             <span className='text-white'> Connect </span>
           </span>
         </div>
-        <div className='rounded-lg dark sm:p-2 p-1 mt-5 transition-all duration-300 border border-zinc-800'>
+        <div className='rounded-lg dark sm:p-2 p-1 mt-5 transition-all duration-300 border border-zinc-800 bg-black'>
           <div className='sm:my-5 my-2 text-sm text-white sm:p-5 p-2'>
             <div className='text-xs border border-black p-2 bg-zinc-900 rounded-md'>
               <h1 className='text-sm font-bold'>Email</h1>

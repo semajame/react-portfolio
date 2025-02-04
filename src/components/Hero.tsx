@@ -19,13 +19,16 @@ const technologies = [
     ),
   },
   {
-    name: 'CSS ',
+    name: 'Javascript ',
     svg: (
       <svg
-        viewBox='0 0 32 32'
-        fill='none'
         xmlns='http://www.w3.org/2000/svg'
-        className='size-6 transition-all duration-300 '
+        aria-label='JavaScript'
+        role='img'
+        width='24'
+        height='24'
+        viewBox='0 0 512 512'
+        fill='#000000'
       >
         <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
         <g
@@ -34,13 +37,8 @@ const technologies = [
           stroke-linejoin='round'
         ></g>
         <g id='SVGRepo_iconCarrier'>
-          {' '}
-          <path d='M6 28L4 3H28L26 28L16 31L6 28Z' fill='#1172B8'></path>{' '}
-          <path d='M26 5H16V29.5L24 27L26 5Z' fill='#33AADD'></path>{' '}
-          <path
-            d='M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z'
-            fill='white'
-          ></path>{' '}
+          <rect width='512' height='512' rx='15%' fill='#f7df1e'></rect>
+          <path d='M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z'></path>
         </g>
       </svg>
     ),

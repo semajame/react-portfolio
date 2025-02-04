@@ -37,7 +37,7 @@ const RecentProjects = () => {
               className='group'
               target='_blank'
             >
-              <div className='rounded-lg dark p-4 transition-all duration-300 border border-zinc-800 hover:bg-primary/[0.03]'>
+              <div className='rounded-lg dark p-4 transition-all duration-300 border border-zinc-800 hover:bg-primary/[0.03] bg-black'>
                 <div className='aspect-video mb-2 rounded-md overflow-hidden'>
                   <img
                     src='/src/assets/greenery.png'
@@ -59,7 +59,7 @@ const RecentProjects = () => {
               className='group'
               target='_blank'
             >
-              <div className='rounded-lg dark p-4 transition-all duration-300 hover:bg-primary/[0.03] border border-zinc-800'>
+              <div className='rounded-lg dark p-4 transition-all duration-300 hover:bg-primary/[0.03] border border-zinc-800 bg-black'>
                 <div className='aspect-video mb-2 rounded-md overflow-hidden'>
                   <img
                     src='src/assets/benedicto.png'
