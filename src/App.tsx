@@ -15,7 +15,7 @@ interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <div className='max-w-lg mx-auto relative z-10 py-5 px-2'>
+  <div className='max-w-lg mx-auto relative z-10 py-5 px-4'>
     <Header />
     {children}
     <Footer />

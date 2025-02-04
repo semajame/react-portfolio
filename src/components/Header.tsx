@@ -19,7 +19,7 @@ const Header = () => {
 
       <div>
         <h1 className='text-2xl font-medium tracking-tighter text-white group'>
-          Hey I'm James
+          Hey, I'm James
           <span className='inline-block hover:wave ml-1'> 👋 </span>
         </h1>
 
