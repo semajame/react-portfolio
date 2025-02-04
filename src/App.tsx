@@ -7,6 +7,7 @@ import Connect from './components/Connect'
 import Footer from './components/Footer'
 import ProjectsPage from './pages/ProjectsPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NotFound from './components/NotFound'
 
 // Layout component with typed children
 interface LayoutProps {
@@ -14,7 +15,7 @@ interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <div className='max-w-lg mx-auto relative z-10'>
+  <div className='max-w-lg mx-auto relative z-10 py-5 px-2'>
     <Header />
     {children}
     <Footer />
@@ -43,6 +44,7 @@ const App: React.FC = () => (
           </Layout>
         }
       />
+      <Route path='*' element={<NotFound />} />
     </Routes>
   </Router>
 )

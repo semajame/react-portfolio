@@ -10,7 +10,7 @@ import { StarsBackground } from '@/components/ui/stars-background'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className='min-h-screen bg-black w-full relative py-5 px-2'>
+    <div className='min-h-screen bg-black w-full relative'>
       <App />
 
       <ShootingStars />

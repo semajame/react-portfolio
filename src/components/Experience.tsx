@@ -75,7 +75,7 @@ const Experience = () => {
 
       {/* Experience Tab Content */}
       <TabsContent value='experience'>
-        <div className='relative border border-zinc-900 rounded-md px-5 dark'>
+        <div className='relative border border-zinc-900 rounded-md px-5 dark bg-black'>
           <div className='flex sm:justify-between items-start mt-5 flex-col gap-2 sm:flex-row'>
             <h3 className='font-bold flex items-center gap-3 text-2xl text-white'>
               🏆 Experience
@@ -116,7 +116,7 @@ const Experience = () => {
 
       {/* Certificates Tab Content */}
       <TabsContent value='certificate'>
-        <div className='relative border border-zinc-900 rounded-md px-5 dark'>
+        <div className='relative border border-zinc-900 rounded-md px-5 dark bg-black'>
           <div className='flex sm:justify-between items-start mt-5 flex-col gap-2 sm:flex-row'>
             <h3 className='font-bold flex items-center gap-3 text-2xl text-white'>
               🎓 Certificates

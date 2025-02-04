@@ -49,9 +49,7 @@ const RecentProjects = () => {
                 <h2 className='text-white text-lg font-semibold mb-2'>
                   The Greenery
                 </h2>
-                <p className='text-white text-xs'>
-                  A frontend plants ecommerce website.
-                </p>
+                <p className='text-white text-xs'>An ecommerce website.</p>
               </div>
             </a>
 
