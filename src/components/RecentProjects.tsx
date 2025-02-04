@@ -1,5 +1,6 @@
 import greenery from '../assets/greenery.png'
-import benedicto from '../assets/benedicto.png'
+
+import apple from '../assets/apple.png'
 
 const RecentProjects = () => {
   return (
@@ -54,24 +55,22 @@ const RecentProjects = () => {
             </a>
 
             <a
-              href='https://bc-scheduling-1024.vercel.app/'
+              href='https://apple-uii.vercel.app/'
               className='group'
               target='_blank'
             >
               <div className='rounded-lg dark p-4 transition-all duration-300 hover:bg-primary/[0.03] border border-zinc-800 bg-black'>
                 <div className='aspect-video mb-2 rounded-md overflow-hidden'>
                   <img
-                    src={benedicto}
+                    src={apple}
                     className='h-full w-full object-cover'
                     alt='Project Image'
                   />
                 </div>
                 <h2 className='text-white text-lg font-semibold mb-2'>
-                  Benedicto College
+                  Apple Ui
                 </h2>
-                <p className='text-white text-xs'>
-                  A fullstack scheduling system.
-                </p>
+                <p className='text-white text-xs'>Apple Website Clone</p>
               </div>
             </a>
           </div>

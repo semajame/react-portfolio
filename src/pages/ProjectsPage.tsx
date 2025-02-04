@@ -5,9 +5,7 @@ import { Icon } from '@iconify/react'
 import benedicto from '../assets/benedicto.png'
 import greenery from '../assets/greenery.png'
 import apple from '../assets/apple.png'
-import kingdom from '../assets/kingdom.png'
-import crypto from '../assets/crypto.png'
-import hotel from '../assets/hotel.png'
+import portfolio from '../assets/portfolio.png'
 
 const projects = [
   {
@@ -16,6 +14,13 @@ const projects = [
     description:
       'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
     link: 'https://bc-scheduling-1024.vercel.app/',
+  },
+  {
+    img: portfolio,
+    title: 'jamessdev',
+    description:
+      'A fast and lightweight portfolio site built with React and Tailwind.',
+    link: 'https://jamessdev.vercel.app/',
   },
   {
     img: greenery,
@@ -29,24 +34,19 @@ const projects = [
     description: 'Apple Clone using Nuxt and Tailwind.',
     link: 'https://apple-uii.vercel.app/',
   },
-  {
-    img: kingdom,
-    title: 'Wild Kingdom',
-    description: 'Real animal information using API, Nuxt and Tailwind.',
-    link: 'https://wild-kingdom.vercel.app/',
-  },
-  {
-    img: crypto,
-    title: 'CryptoCurrency X',
-    description: 'Real-time crypto updates using API, Vue, and Tailwind.',
-    link: 'https://crypto-currency-x.vercel.app/',
-  },
-  {
-    img: hotel,
-    title: 'Grand Standard',
-    description: 'Hotel Website using Vue and SCSS.',
-    link: 'https://grand-standard-hotel.vercel.app/',
-  },
+  // {
+  //   img: kingdom,
+  //   title: 'Wild Kingdom',
+  //   description: 'Real animal information using API, Nuxt and Tailwind.',
+  //   link: 'https://wild-kingdom.vercel.app/',
+  // },
+
+  // {
+  //   img: hotel,
+  //   title: 'Grand Standard',
+  //   description: 'Hotel Website using Vue and SCSS.',
+  //   link: 'https://grand-standard-hotel.vercel.app/',
+  // },
 ]
 
 const ProjectsPage = () => {
