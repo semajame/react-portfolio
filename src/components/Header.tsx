@@ -1,4 +1,3 @@
-import React from 'react'
 import james_anq from '../assets/james_anq.webp'
 
 const Header = () => {
