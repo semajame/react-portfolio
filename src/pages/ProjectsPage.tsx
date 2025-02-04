@@ -1,41 +1,48 @@
 import { Link } from 'react-router-dom'
 import { Icon } from '@iconify/react'
-import { Helmet } from 'react-helmet-async'
+
+// Import images if inside `src/assets/`
+import benedicto from '../assets/benedicto.png'
+import greenery from '../assets/greenery.png'
+import apple from '../assets/apple.png'
+import kingdom from '../assets/kingdom.png'
+import crypto from '../assets/crypto.png'
+import hotel from '../assets/hotel.png'
 
 const projects = [
   {
-    img: 'src/assets/benedicto.png',
+    img: benedicto,
     title: 'Benedicto College Scheduling',
     description:
       'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
     link: 'https://bc-scheduling-1024.vercel.app/',
   },
   {
-    img: 'src/assets/greenery.png',
+    img: greenery,
     title: 'The Greenery',
     description: 'Plant ecommerce website using Vue and Tailwind.',
     link: 'https://greenery-ecommerce.vercel.app/',
   },
   {
-    img: 'src/assets/apple.png',
+    img: apple,
     title: 'Apple Ui',
     description: 'Apple Clone using Nuxt and Tailwind.',
     link: 'https://apple-uii.vercel.app/',
   },
   {
-    img: 'src/assets/kingdom.png',
+    img: kingdom,
     title: 'Wild Kingdom',
     description: 'Real animal information using API, Nuxt and Tailwind.',
     link: 'https://wild-kingdom.vercel.app/',
   },
   {
-    img: 'src/assets/crypto.png',
+    img: crypto,
     title: 'CryptoCurrency X',
     description: 'Real-time crypto updates using API, Vue, and Tailwind.',
     link: 'https://crypto-currency-x.vercel.app/',
   },
   {
-    img: 'src/assets/hotel.png',
+    img: hotel,
     title: 'Grand Standard',
     description: 'Hotel Website using Vue and SCSS.',
     link: 'https://grand-standard-hotel.vercel.app/',
@@ -45,20 +52,6 @@ const projects = [
 const ProjectsPage = () => {
   return (
     <div className='my-10 text-white'>
-      <Helmet>
-        <title>Projects - James</title>
-        <meta
-          name='description'
-          content='Explore all projects by James, including scheduling apps, e-commerce platforms, and more.'
-        />
-        <meta property='og:title' content='Projects - James' />
-        <meta
-          property='og:description'
-          content='Explore projects by James, built with modern frameworks like Angular, Vue, and Nuxt.'
-        />
-        <meta property='og:type' content='website' />
-      </Helmet>
-
       <div className='flex gap-5 justify-between'>
         <Link to='/' className='text-white hover:underline'>
           &larr; Go Back
