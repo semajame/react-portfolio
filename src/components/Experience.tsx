@@ -7,15 +7,16 @@ const experiences = [
     year: 2025,
   },
   {
+    title: 'Questnova Systems Intern',
+    location: 'Work from Home',
+    year: 2025,
+  },
+  {
     title: 'Freelance Frontend Developer',
     location: 'Mandaue City',
     year: 2024,
   },
-  {
-    title: 'Tour De Tech',
-    location: 'Bai Hotel',
-    year: 2024,
-  },
+
   {
     title: 'Cebu Interschool Hackathon',
     location: 'Provincial Capitol',

@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
 import RecentProjects from './components/RecentProjects'
+import More from './components/More'
 import Connect from './components/Connect'
 import Footer from './components/Footer'
 import ProjectsPage from './pages/ProjectsPage'
@@ -30,8 +31,11 @@ const App: React.FC = () => (
         element={
           <Layout>
             <Hero />
+
             <Experience />
+            <More />
             <RecentProjects />
+
             <Connect />
           </Layout>
         }
