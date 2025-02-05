@@ -8,7 +8,7 @@ const Footer = () => {
           <p className='text-white text-xs sm:text-sm'>
             © {date.getFullYear()} James Anquillano.
           </p>
-          <p className='text-white text-xs sm:text-sm'>All rights reserved.</p>
+          <p className='text-white text-xs sm:text-sm'>Made in React.</p>
         </div>
       </footer>
     </>
