@@ -1,4 +1,4 @@
-import greenery from '../assets/greenery.png'
+import questnova from '../assets/questnova.png'
 
 import apple from '../assets/apple.png'
 
@@ -35,22 +35,24 @@ const RecentProjects = () => {
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
             <a
-              href='https://greenery-ecommerce.vercel.app/'
+              href='https://questnova.vercel.app/'
               className='group'
               target='_blank'
             >
               <div className='rounded-lg dark p-4 transition-all duration-300 border border-zinc-800 hover:bg-primary/[0.03] bg-black'>
                 <div className='aspect-video mb-2 rounded-md overflow-hidden'>
                   <img
-                    src={greenery}
+                    src={questnova}
                     className='h-full w-full object-cover'
                     alt='Project Image'
                   />
                 </div>
                 <h2 className='text-white text-lg font-semibold mb-2'>
-                  The Greenery
+                  Questnova Systems
                 </h2>
-                <p className='text-white text-xs'>An ecommerce website.</p>
+                <p className='text-white text-xs'>
+                  A software services website.
+                </p>
               </div>
             </a>
 

@@ -6,6 +6,7 @@ import benedicto from '../assets/benedicto.png'
 import greenery from '../assets/greenery.png'
 import apple from '../assets/apple.png'
 import portfolio from '../assets/portfolio.png'
+import questnova from '../assets/questnova.png'
 
 const projects = [
   {
@@ -34,12 +35,13 @@ const projects = [
     description: 'Apple Clone using Nuxt and Tailwind.',
     link: 'https://apple-uii.vercel.app/',
   },
-  // {
-  //   img: kingdom,
-  //   title: 'Wild Kingdom',
-  //   description: 'Real animal information using API, Nuxt and Tailwind.',
-  //   link: 'https://wild-kingdom.vercel.app/',
-  // },
+  {
+    img: questnova,
+    title: 'Questnova Systems Corporation',
+    description:
+      'A philippine based software services website, using Nuxt and Tailwind',
+    link: 'https://wild-kingdom.vercel.app/',
+  },
 
   // {
   //   img: hotel,
