@@ -10,18 +10,18 @@ import questnova from '../assets/questnova.png'
 
 const projects = [
   {
-    img: benedicto,
-    title: 'Benedicto College Scheduling',
-    description:
-      'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
-    link: 'https://bc-scheduling-1024.vercel.app/',
-  },
-  {
     img: portfolio,
     title: 'jamessdev',
     description:
       'A fast and lightweight portfolio site built with React and Tailwind.',
     link: 'https://jamessdev.vercel.app/',
+  },
+  {
+    img: questnova,
+    title: 'Questnova Systems Corporation',
+    description:
+      'A philippine based software services website, using Nuxt and Tailwind',
+    link: 'https://wild-kingdom.vercel.app/',
   },
   {
     img: greenery,
@@ -36,11 +36,11 @@ const projects = [
     link: 'https://apple-uii.vercel.app/',
   },
   {
-    img: questnova,
-    title: 'Questnova Systems Corporation',
+    img: benedicto,
+    title: 'Benedicto College Scheduling',
     description:
-      'A philippine based software services website, using Nuxt and Tailwind',
-    link: 'https://wild-kingdom.vercel.app/',
+      'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
+    link: 'https://bc-scheduling-1024.vercel.app/',
   },
 
   // {
