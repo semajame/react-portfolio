@@ -43,14 +43,14 @@ const More = () => {
           I am listening to my favorite songs as you are reading this now.
         </p>
 
-        <div className='my-4 grid grid-cols-2 justify-evenly items-center'>
+        <div className='my-4 sm:grid-cols-2 sm:justify-evenly sm: items-center grid gap-2 '>
           {musicList.map((music, index) => (
-            <div className='flex justify-evenly'>
+            <div className='flex sm:justify-evenly bg-zinc-950 transition duration-200 rounded-md hover:bg-zinc-900'>
               <a
                 href={music.link}
                 key={index}
                 target='_blank'
-                className='flex items-center gap-3 mb-4'
+                className='flex items-center gap-3 '
               >
                 <img
                   src={music.img}
