@@ -7,8 +7,16 @@ import greenery from '../assets/greenery.png'
 import apple from '../assets/apple.png'
 import portfolio from '../assets/portfolio.png'
 import questnova from '../assets/questnova.png'
+import resume from '../assets/resume.png'
 
 const projects = [
+  {
+    img: resume,
+    title: 'Simple Resume Builder',
+    description:
+      'A professional and ready to use harvard style resume, built with Next and Tailwind.',
+    link: 'https://simplee-resume-builder.vercel.app/',
+  },
   {
     img: portfolio,
     title: 'jamessdev',
@@ -16,6 +24,14 @@ const projects = [
       'A fast and lightweight portfolio site built with React and Tailwind.',
     link: 'https://jamessdev.vercel.app/',
   },
+  {
+    img: benedicto,
+    title: 'Benedicto College Scheduling',
+    description:
+      'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
+    link: 'https://bc-scheduling-1024.vercel.app/',
+  },
+
   {
     img: questnova,
     title: 'Questnova Systems Corporation',
@@ -34,13 +50,6 @@ const projects = [
     title: 'Apple Ui',
     description: 'Apple Clone using Nuxt and Tailwind.',
     link: 'https://apple-uii.vercel.app/',
-  },
-  {
-    img: benedicto,
-    title: 'Benedicto College Scheduling',
-    description:
-      'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
-    link: 'https://bc-scheduling-1024.vercel.app/',
   },
 
   // {

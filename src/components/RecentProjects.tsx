@@ -1,6 +1,6 @@
 import questnova from '../assets/questnova.png'
 
-import apple from '../assets/apple.png'
+import resume from '../assets/resume.png'
 
 const RecentProjects = () => {
   return (
@@ -35,6 +35,25 @@ const RecentProjects = () => {
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
             <a
+              href='https://simplee-resume-builder.vercel.app/'
+              className='group'
+              target='_blank'
+            >
+              <div className='rounded-lg dark p-4 transition-all duration-300 hover:bg-primary/[0.03] border border-zinc-800 bg-black'>
+                <div className='aspect-video mb-2 rounded-md overflow-hidden'>
+                  <img
+                    src={resume}
+                    className='h-full w-full object-cover'
+                    alt='Project Image'
+                  />
+                </div>
+                <h2 className='text-white text-lg font-semibold mb-2'>
+                  Resume Builder
+                </h2>
+                <p className='text-white text-xs'>A simple resume builder.</p>
+              </div>
+            </a>
+            <a
               href='https://questnova.vercel.app/'
               className='group'
               target='_blank'
@@ -53,26 +72,6 @@ const RecentProjects = () => {
                 <p className='text-white text-xs'>
                   A software services website.
                 </p>
-              </div>
-            </a>
-
-            <a
-              href='https://apple-uii.vercel.app/'
-              className='group'
-              target='_blank'
-            >
-              <div className='rounded-lg dark p-4 transition-all duration-300 hover:bg-primary/[0.03] border border-zinc-800 bg-black'>
-                <div className='aspect-video mb-2 rounded-md overflow-hidden'>
-                  <img
-                    src={apple}
-                    className='h-full w-full object-cover'
-                    alt='Project Image'
-                  />
-                </div>
-                <h2 className='text-white text-lg font-semibold mb-2'>
-                  Apple Ui
-                </h2>
-                <p className='text-white text-xs'>Apple Website Clone</p>
               </div>
             </a>
           </div>
