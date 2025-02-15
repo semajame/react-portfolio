@@ -37,7 +37,7 @@ const projects = [
     title: 'Questnova Systems Corporation',
     description:
       'A philippine based software services website, using Nuxt and Tailwind',
-    link: 'https://wild-kingdom.vercel.app/',
+    link: 'https://questnova.vercel.app/',
   },
   {
     img: greenery,
