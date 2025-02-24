@@ -54,7 +54,7 @@ const RecentProjects = () => {
               </div>
             </a>
             <a
-              href='https://questnova.com/'
+              href='http://www.questnova.com/'
               className='group'
               target='_blank'
             >
