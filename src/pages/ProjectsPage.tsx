@@ -10,6 +10,13 @@ import questnova from '../assets/questnova.png'
 import resume from '../assets/resume.png'
 
 const projects = [
+   {
+    img: questnova,
+    title: 'Questnova Systems Corporation',
+    description:
+      'A philippine based software services website, using Nuxt and Tailwind',
+    link: 'https://questnova.com/',
+  },
   {
     img: resume,
     title: 'Simple Resume Builder',
@@ -31,14 +38,7 @@ const projects = [
       'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
     link: 'https://bc-scheduling-1024.vercel.app/',
   },
-
-  {
-    img: questnova,
-    title: 'Questnova Systems Corporation',
-    description:
-      'A philippine based software services website, using Nuxt and Tailwind',
-    link: 'https://questnova.vercel.app/',
-  },
+ 
   {
     img: greenery,
     title: 'The Greenery',
