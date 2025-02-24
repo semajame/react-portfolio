@@ -54,7 +54,7 @@ const RecentProjects = () => {
               </div>
             </a>
             <a
-              href='https://questnova.vercel.app/'
+              href='https://questnova.com/'
               className='group'
               target='_blank'
             >
